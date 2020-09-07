@@ -5,4 +5,4 @@ Chat through Discord webhooks in python!
 
 Simply run the file in python 3
 
-Important note: Change line 8 if you're on linux (see the comment)
+Important note: Change line 8 if you're on GNU/Linux (See the comment)
