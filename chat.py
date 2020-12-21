@@ -30,7 +30,7 @@ def webhook(message):
     except requests.exceptions.HTTPError as err:
         print(err)
     else:
-        print("Info: Payload delivered successfully, code {}.".format(result.status_code))
+        print(f"Info: Payload delivered successfully, code {result.status_code}.")
 
 # Checks if the webhook is valid
 def check(webhook):
